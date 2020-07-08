@@ -1,0 +1,81 @@
+body {
+  background-color: #eff5f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  color: #afcfbf;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: #b9c6bf 3px 3px 4px;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+#app {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+  margin: 40px 0;
+}
+
+#item,
+#addItem {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#item {
+  background-color: #ffffff;
+}
+
+#addItem {
+  background-color: #debaba;
+  color: #ffffff;
+}
+
+#output {
+  background-color: #ffffff;
+  width: 350px;
+  margin: auto;
+}
+
+#list {
+  margin: auto;
+  padding: 0;
+}
+
+.shoppingItem,
+.completed {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  height: 100%;
+  border-bottom: #cccccc 1px solid;
+  cursor: pointer;
+}
+
+.shoppingItem:last-child {
+  border: none;
+}
+
+.completed {
+  color: #cccccc;
+}
+
+.nm {
+  float: left;
+  padding: 20;
+}
+
+.del {
+  text-align: right;
+  color: #ff0000;
+  font-weight: bold;
+}
